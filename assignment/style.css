@@ -27,10 +27,29 @@ img {
 /* Change the font-family of your list */
 ul {
   font-family: cursive;
+  color: grey;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
-div {
+/* CLASS Selectors */
+.prettyPeople {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  margin-left: 50px;
+  float: left;
+}
+.prettyKitties {
+  display: block;
+  margin-right: 50px;
+  float: right;
+}
+.content {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+/* ID Selectors*/
+#tolkien{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
