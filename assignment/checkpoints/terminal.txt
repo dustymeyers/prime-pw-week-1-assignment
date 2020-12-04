@@ -15,7 +15,9 @@ A quick way to create a new file is to run the 'touch' command followed by the n
 # 7 - Run 'git --version' in your terminal. What is the output?
 When I run 'git --version' in my terminal, the output is the current version of git that I am running on my computer, which in this case is 2.24.3 (Apple Git-128)
 # 8 - Why would you run the command 'git status'?
-I would run the command 'git status'
+I would run the command 'git status' to see what files have been changed from a previous state(commit) and whether they have been staged for a commit.
 # 9 - What does the command 'git add .' do?
-
+The command 'git add .' stages a commit to be pushed to the master branch.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+If my remote origin is not set up to push committed changes to my repo, the command to do that is 'git remote add origin https://github.com/dustymeyers/prime-pw-week-1-assignment.git
+git push -u origin master'. Otherwise if I've been actively working within that repo I can just run the command 'git push -u origin master'.
